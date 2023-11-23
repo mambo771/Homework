@@ -79,14 +79,14 @@ public class Main {
         int Total = 102;
         int Side = 60;
         int Stand = 42;
-        int people = 30;
-        boolean BuzySide = (people >= 60 && people <= Total);
-        if (people < 60) {
-            System.out.println(" В вагоне есть сидячих " + (Side - people) + " мест, а также " + (Total - Side) + " стоячих мест ");
+        int People = 30;
+        boolean BuzySide = (People >= 60 && People <= Total);
+        if (People < 60) {
+            System.out.println(" В вагоне есть сидячих " + (Side - People) + " мест, а также " + (Total - Side) + " стоячих мест ");
         } else if (BuzySide) {
-            System.out.println(" В вагоне нет сидячих мест, но есть " + (Total - people) + " стоячих мест ");
+            System.out.println(" В вагоне нет сидячих мест, но есть " + (Total - People) + " стоячих мест ");
         } else {
-            System.out.println(" В вагоне нет мест, ни стоячих ни сидячих, он переполнен на " + -(people - Total) + " человек ");
+            System.out.println(" В вагоне нет мест, ни стоячих ни сидячих, он переполнен на " + -(People - Total) + " человек ");
         }
 
 
