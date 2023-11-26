@@ -67,7 +67,7 @@ public class Main {
 
     private static void task5() {
         System.out.println(" Задача 5");
-        int monthNumber = 5;
+        int monthNumber = 8;
         switch (monthNumber) {
             case 1, 2, 12:
                 System.out.println(" Зима ");
