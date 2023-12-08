@@ -61,7 +61,7 @@ public class Main {
 
     private static void task3() {
         System.out.println();
-        System.out.println(" Задача 3");
+        System.out.println(" Задача 3 ");
         int[] weights = {1, 2, 3};
         for (int i = weights.length - 1; i >=0 ; i--) {
             System.out.print(weights[i]);
